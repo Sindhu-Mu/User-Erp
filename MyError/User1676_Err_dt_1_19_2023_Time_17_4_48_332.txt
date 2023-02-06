@@ -1,0 +1,12 @@
+Error Message: Input string was not in a correct format.
+Stack Trace:    at System.Number.ParseDouble(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.Convert.ToDouble(String value)
+   at Finance_BankAccount.Add() in e:\Portal\EmployeePortal\Finance\FeeRecieving.aspx.cs:line 310
+   at Finance_BankAccount.btnModeAdd_Click(Object sender, EventArgs e) in e:\Portal\EmployeePortal\Finance\FeeRecieving.aspx.cs:line 189
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+

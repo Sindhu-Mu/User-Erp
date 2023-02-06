@@ -1,0 +1,64 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MainPage.master.cs" Inherits="MasterPages_MainPage" %>
+
+<%@ Register Src="../Control/menu.ascx" TagName="menu" TagPrefix="uc1" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="EN" lang="EN" dir="ltr">
+
+<head id="Head1" runat="server">
+    <title>ERP | Examination Portal</title>
+    <link rel="icon"  type="image/png" href="../Siteimages/favicon.ico"/>
+    <link href="../css/FullLength.css" rel="stylesheet" type="text/css" />
+    <link href="../css/Main.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="../js/validation.js"></script>
+    <script type="text/javascript" src="../js/date.js"></script>
+</head>
+<body>
+
+    <form id="Form1" runat="server">
+       
+
+        <div>
+        <div id="mu_wrapper">
+            <div id="mu_header">
+                <table style="margin: 0; border-collapse: collapse">
+                    <tr>
+                        <td>
+                            <img src="../siteimages/mu_logo.png" alt="logo" />
+                        </td>
+                        <td>
+                            <div style="text-align: right; color: #ffffff; margin: 0 auto;">
+                                <asp:Label ID="lblUserCode" runat="server"></asp:Label>|
+                    <asp:Label ID="lblUserName" runat="server"></asp:Label>
+                    |<a href="../Common/EmployeeLink.aspx?=1">Logout</a>
+                            </div>
+                            <uc1:menu ID="Menu2" runat="server" ClientIDMode="Static"></uc1:menu>
+                        </td>
+                    </tr>
+                </table>
+                <!-- end of mu_menu -->
+                <div class="cleaner">
+                    <asp:ScriptManager ID="ScriptManager1" runat="server">
+                    </asp:ScriptManager>
+                </div>
+            </div>
+        </div>
+        
+        <div style="background-color: #ffffff; width: 1000px; margin:0 auto; height: inherit; vertical-align: top;min-height:530px">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+ <div id="mu_footer_wrapper">
+            <div id="mu_footer">
+                
+               <h3> Copyright © 2016 <a href="https://www.Mangalayatan.in" target="_blank">Mangalayatan University</a>    </h3>
+            </div>
+            <!-- end of footer -->
+        </div>
+            </div>
+        <!-- end of footer wrapper -->
+    </form>
+</body>
+</html>
+
+
