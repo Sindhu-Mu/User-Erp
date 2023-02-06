@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<root>
+  <id image="../siteimages/iconAtt.png">
+    <header>HR</header>
+    <desc>Employee Information, Leave,Attendance, Performance Appraisal </desc>
+  </id>
+  <id image="../siteimages/iconAtt.png">
+    <header >
+      Academics
+    </header>
+    <desc>Student Information,Time Table,Attendance, Examination, Feedback</desc>
+  </id>
+  <id image="../siteimages/iconAtt.png">
+    <header >
+      Inventory
+    </header>
+    <desc>Purchase,Indent, Stock Management</desc>
+  </id>
+  <id image="../siteimages/iconAtt.png">
+    <header >
+      Facility
+    </header>
+    <desc>Transport, Accommodation, Issue Tracking, Booking  </desc>
+  </id>
+
+</root>

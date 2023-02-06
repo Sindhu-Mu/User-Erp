@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<root>
+  <right>
+    <header >
+      Sign in as Admin
+    </header>
+    <link>../login/AdminLogin.aspx</link>
+  </right>
+  <right>
+    <header >
+      Sign in as Guest
+    </header>
+    <link>../login/GuestLogin.aspx</link>
+  </right>
+
+
+</root>

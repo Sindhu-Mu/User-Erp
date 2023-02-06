@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<root>  
+  <left>
+    <header>
+      Mail 
+    </header>
+    <link>https://accounts.google.com/ServiceLoginAuth?service=mail</link>
+  </left>
+  <left>
+    <header>
+      Student Portal
+    </header>
+    <link>http://103.17.48.53/studentLogin</link>
+  </left>
+  <left>
+    <header>
+      Admission System
+    </header>
+    <link>http://192.168.1.4/mu_admission/login.aspx</link>
+  </left>
+  
+  <left>
+    <header>
+      Download 
+    </header>
+    <link>http://103.17.48.53/Download/</link>
+  </left>
+</root>

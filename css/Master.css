@@ -1,0 +1,309 @@
+﻿
+body
+{
+  BACKGROUND-COLOR: #f0f8ff;
+    
+}
+
+.ajax__calendar_days table tr td, .ajax__calendar_months table tr td, 
+.ajax__calendar_years table tr td { padding:0; margin:0; }
+ .SideLnk
+{
+COLOR:blue;
+font-size:12px;
+font-family:Book Antiqua;
+vertical-align:bottom;
+text-decoration:underline;
+
+}
+.heading
+{
+	text-decoration:underline;
+}
+ .SideHead
+{
+COLOR:Black;
+font-size:14px;
+font-family:Arial;
+vertical-align:bottom;
+text-decoration:underline;
+
+}
+.mainheader
+{
+    background-color: #000000;
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    font-family: Verdana;
+    color: white;
+    font-size: large;
+    vertical-align:text-bottom;
+    text-decoration: underline;
+}
+.Tabheader
+{
+   background-image: url(../../Images/sidebar_header.png);
+   color:White;
+   font-weight:bold;
+   height:30px;
+   padding-left:5px;
+}
+
+.header
+{
+    background-color: #000000;
+    width: 100%;
+    height: 40px;
+    text-align: left;
+    font-family: Verdana;
+    color: white;
+    font-size: large;
+    vertical-align: text-bottom;
+    text-decoration: underline;
+}
+.Masterheader
+{
+   background-color: #000000;
+    width: 100%;
+    height: 40px;
+    font-weight:bold;
+    text-align: left;
+    font-family:Arial;
+    color: white;
+    font-size:large;
+    vertical-align: text-bottom;
+    text-decoration: underline;
+}
+
+
+
+
+#tblMasterMain
+{
+    width: 1000px;
+    background-color:transparent;
+    margin-left: auto;
+    margin-right: auto;
+}
+.modalBackground {
+	background-color:Gray;
+	filter:alpha(opacity=70);
+	opacity:0.7;
+}
+
+.modalPopup {
+	background-color:#ffffdd;
+	border-width:3px;
+	border-style:solid;
+	border-color:Gray;
+	padding:3px;
+	width:300px;
+}
+.topBarBG
+{
+    background-image: url(../../Image/topBarBackground.jpg);
+}
+
+.content
+{
+    background-color: #ccccff;
+    width: 100%;
+}
+
+.entry
+{
+	font-family: 'Segoe UI';
+	font-size: 9pt;
+	text-align: left;
+	display: inline;
+}
+.entry th
+{
+    color: #000000;
+    vertical-align: bottom;
+    text-align: left;
+}
+.entry td
+{
+    padding-right: 5px;
+    vertical-align: bottom;
+}
+
+.entryFull
+{
+    font-family: 'Segoe UI';
+    font-size: 9pt;
+   
+}
+.entryFull th
+{
+    color: #000000;
+    vertical-align: bottom;
+    text-align: left;
+    vertical-align: bottom;
+}
+.entryFull td
+{
+    padding-right: 5px;
+    vertical-align: bottom;
+}
+
+
+.required
+{
+    color: red;
+    cursor: help;
+}
+
+.expected
+{
+    color: Blue;
+    cursor: help;
+}
+
+input[type="text"]
+{
+    border: solid 1px #7F9DB9;
+    background: #ffffff;
+    font-family: 'Segoe UI';
+    font-size: 9pt;
+    height: 16px;
+    color: #000000;
+    width: 100%;
+    
+}
+
+input[disabled]
+{
+    border: solid 1px #7F9DB9;
+    background: #ffffff;
+    font-family: 'Segoe UI';
+    font-size: 9pt;
+    height: 16px;
+    color: #000099;
+    width: 100%;
+    
+}
+textarea
+{
+    border: solid 1px #7F9DB9;
+    background: #ffffff;
+    font-family: 'Segoe UI';
+    font-size: 9pt;
+    height: 50px;
+    color: #000000;
+    width: 100%;
+}
+
+select
+{
+    border: #a29c9c 1px solid;
+    font-size: 9pt;
+    color: #000000;
+    font-style: normal;
+    font-family: 'Segoe UI';
+    width: 99%;
+    background-color: #ffffff;
+}
+
+input[type="submit"]
+{
+    border: solid 1px #7F9DB9;
+    background: #ffffff;
+    font-family: 'Segoe UI';
+    font-size: 9pt;
+    height: 20px;
+    color: #000000;
+}
+.menu
+{
+    font-family: 'Segoe UI';
+    font-size: 9pt;
+    height: 100%;
+    color: #000000;
+    width: 100%;
+    
+    background-image: none;
+    text-align: left;
+    background-attachment: scroll;
+    background-repeat: repeat;
+    background-position: 0% 0%;
+    vertical-align: bottom;
+}
+
+a
+{
+    color: Red;
+    text-decoration: none;
+}
+
+a:hover
+{
+    color:Blue;
+}
+
+iframe
+{
+    width: 100%;
+    height: 600px;
+}
+
+
+.gridDynamic
+{
+    width: 100%;
+    background-color: #fff;
+    margin: 5px 0 10px 0;
+    border: solid 1px #525252;
+    border-collapse: collapse;
+    display: inline;
+    
+}
+.gridDynamic td
+{
+    padding: 2px;
+    border: solid 1px #c1c1c1;
+    color: #000000;
+    font-size:12px;
+}
+.gridDynamic th
+{
+    padding: 4px 2px;
+    color: #fff;
+    background: #424242 url(../../Image/grd_head.png) repeat-x top;
+    border-left: solid 1px #525252;
+    font-size: 12px;
+}
+.gridDynamic .alt
+{
+    background: #fcfcfc url(../../Image/grd_alt.png) repeat-x top;
+}
+.gridDynamic .pgr
+{
+    background: #ff8c00 url(../../Image/grd_pgr.png) repeat-x top;
+}
+.gridDynamic .pgr table
+{
+    margin: 5px 0;
+}
+.gridDynamic .pgr td
+{
+    border-width: 0;
+    padding: 0 6px;
+    border-left: solid 1px #666;
+    font-weight: bold;
+    color: #fff;
+    line-height: 12px;
+}
+.gridDynamic .pgr a
+{
+    color: #666;
+    text-decoration: none;
+}
+.gridDynamic .pgr a:hover
+{
+    color: #000;
+    text-decoration: none;
+}
+

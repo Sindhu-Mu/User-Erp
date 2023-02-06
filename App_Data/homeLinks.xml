@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<root>
+  <item img="../images/home/birthday.gif" target="_blank" title="Today's Birthday List" alt="Today's Birthday List"  href="javascript:void(0)"></item>
+  <item img="../images/home/holiday.jpg" target="_blank" title="Holiday Calender" alt="Holiday Calender"  href="javascript:void(0)"></item>
+  <item img="../images/home/contacts.jpg" target="_blank" title="University Contacts" alt="University Contacts"  href="javascript:void(0)"></item>
+  <item img="../images/home/joinings.jpg" target="_blank" title="New Joinings" alt="New Joinings"  href="javascript:void(0)"></item>
+</root>

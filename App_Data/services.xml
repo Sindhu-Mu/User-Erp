@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<root>
+  <id>
+    <header>Mangal Darpan</header>
+    <desc>check your current and previous attendance</desc>
+  </id>
+  <id>
+    <header >
+      Knowledge Repository</header>
+    <desc>apply new and check previous leaves</desc>
+  </id>
+
+</root>

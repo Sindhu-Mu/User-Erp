@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<root>
+  <left>
+    <header >
+      Home
+    </header>
+    <link>javascript:void(0)</link>
+  </left>
+  <left>
+    <header >
+      E-mail
+    </header>
+    <link>javascript:void(0)</link>
+  </left>
+  <left>
+    <header >
+      Facebook
+    </header>
+    <link>javascript:void(0)</link>
+  </left>
+</root>

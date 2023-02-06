@@ -1,0 +1,25 @@
+﻿body
+{
+    background-image: url(../images/profileHeader.jpg);
+    background-repeat: repeat-x;
+}
+.headerMedium
+{
+    text-align: left;
+    font-size: large;
+    color: white;
+}
+a
+{
+    color: #ffffff;
+    text-decoration: none;
+}
+table
+{
+    color:White;
+}
+.headerBig
+{
+    text-align: left;
+    font-size: x-large;
+}

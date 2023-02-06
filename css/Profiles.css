@@ -1,0 +1,113 @@
+﻿body {
+}
+h1, h2, h3, h4, h5, h6 { margin: 0; padding: 0; }
+		
+a:link, a:visited { color: #000000; text-decoration: none; font-weight: normal; } 
+a:active, a:hover { color: #990000; text-decoration: underline; }
+
+p { margin: 0px; padding: 0px; }
+
+img { border-style: none;
+    border-color: inherit;
+    border-width: medium;
+    margin: 0px;
+    padding: 0px;
+    height: auto;
+    width: auto;
+}
+
+.cleaner { clear: both; width: 100%; height: 0px; font-size: 0px;  }
+
+.margin_bottom_10 { clear: both; width: 100%; height: 10px; font-size: 1px;	}
+.margin_bottom_20 { clear: both; width: 100%; height: 20px; font-size: 1px;	}
+.margin_bottom_30 { clear: both; width: 100%; height: 30px; font-size: 1px;	}
+.margin_bottom_40 { clear: both; width: 100%; height: 40px; font-size: 1px;	}
+.margin_bottom_50 { clear: both; width: 100%; height: 50px; font-size: 1px;	}
+.margin_bottom_60 { clear: both; width: 100%; height: 60px; font-size: 1px;	}
+
+.margin_right_20 { margin-right: 20px; }
+.margin_right_40 { margin-right: 40px; }
+
+
+#Emp_Profile {
+	float: left;
+	overflow: hidden;
+	width: auto;
+	height: auto;
+	padding: 30px 10px 0 10px;
+	font-size: 40px;
+	color: #000000;
+	background: url(../siteimages/Profile_body.jpg) no-repeat;
+    
+}
+
+
+
+#Emp_Profile a {
+	color: #000000;
+	font-weight: normal;
+	text-decoration: none;
+}
+
+#Emp_Profile span {
+	display: block;
+	color: #999;
+	margin-top: 5px;
+	margin-left: 5px;
+	font-size: 12px;
+}
+
+.left-area {
+     float:left;
+     height:180px;
+     width:180px;
+     background-color:#fff;
+     text-align:center;
+       
+}
+.right-area{
+    
+     height:180px;
+     max-width:650px;
+     color:#fff;
+     margin-left:180px;
+     
+     
+     
+      
+}
+.right-area hr{
+    
+    margin:1px;
+    padding:0px;
+    background-color:#fff;
+    border:none;
+    height:1px;
+     
+      
+}
+.main-div {
+    height:180px;
+     background-color:#79c2f2;
+      color:#79c2f2;
+      
+
+}
+.main-div-2 {
+    height:180px;
+     background-color:#999;
+     color:#990000; 
+      
+
+}
+.label-detail{
+         font-weight:800;
+         
+    }
+.main-div-stu {
+    height:180px;
+     background-color:#468B3C;
+      color:#468B3C;
+      
+
+}

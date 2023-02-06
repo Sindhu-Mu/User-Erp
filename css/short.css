@@ -1,0 +1,287 @@
+﻿/*
+Credit: 192.168.1.3
+*/
+
+body {
+	margin: 0;
+	padding: 0;
+	line-height: 1.5em;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 13px;
+	color: #666;
+	background: #fff url(../siteimages/mu_body.jpg) repeat-x top;
+}
+h1, h2, h3, h4, h5, h6 { margin: 0; padding: 0; }
+		
+a:link, a:visited { color: #000000; text-decoration: none; font-weight: normal; } 
+a:active, a:hover { color: #990000; text-decoration: underline; }
+
+p { margin: 0px; padding: 0px; }
+
+
+
+.cleaner { clear: both; width: 100%; height: 0px; font-size: 0px;  }
+
+.margin_bottom_10 { clear: both; width: 100%; height: 10px; font-size: 1px;	}
+.margin_bottom_20 { clear: both; width: 100%; height: 20px; font-size: 1px;	}
+.margin_bottom_30 { clear: both; width: 100%; height: 30px; font-size: 1px;	}
+.margin_bottom_40 { clear: both; width: 100%; height: 40px; font-size: 1px;	}
+.margin_bottom_50 { clear: both; width: 100%; height: 50px; font-size: 1px;	}
+.margin_bottom_60 { clear: both; width: 100%; height: 60px; font-size: 1px;	}
+
+.margin_right_20 { margin-right: 20px; }
+.margin_right_40 { margin-right: 40px; }
+
+.fl {
+	float: left;
+}
+
+.fr {
+	float: right;
+}
+
+#mu_wrapper {
+	width: 1000px;
+	margin: 0 auto;
+     
+}
+
+/* header */
+
+#mu_header {
+	height: 90px;
+	padding: 0 10px;
+}
+
+#mu_header #site_title {
+	float: left;
+	overflow: hidden;
+	width: auto;
+	padding: 30px 10px 0 10px;
+	font-size: 40px;
+	color: #000000;
+	background: url(../siteimages/mu_site_title.jpg) no-repeat;
+}
+
+#mu_header #site_title a {
+	color: #000000;
+	font-weight: normal;
+	text-decoration: none;
+}
+
+#mu_header #site_title span {
+	display: block;
+	color: #999;
+	margin-top: 5px;
+	margin-left: 5px;
+	font-size: 12px;
+}
+
+
+
+/* end of header */
+
+/* banner */
+
+#mu_banner {
+	clear: both;
+	width: 960px;
+	height: 220px;
+	padding: 0px 10px;
+	background: url(../siteimages/mu_banner.jpg) no-repeat;
+}
+
+#mu_banner #about {
+    vertical-align:top;
+	float: left;
+	width: 170px;
+	padding:15px 0px 0px 15px;
+	color: #CCC;
+}
+
+
+
+
+#mu_banner #banner h1 {
+	color: #fff;
+	font-size: 40px;
+	line-height: 40px;
+	margin-bottom: 10px;
+	color: #fff;
+}
+
+#mu_banner #banner p {
+	font-size: 20px;	
+    line-height:30px;
+    color:#fff;
+}
+
+/* end of banner */
+
+/* content */
+
+#mu_content_wrapper {
+	clear: both;
+	margin: 0 10px;
+	padding:0;
+	background: url(../siteimages/mu_sidebar.jpg) repeat-y left;
+}
+#mu_content_wrapper #about {
+    
+	float: left;
+	width: 170px;
+	padding:20px 0px 0px 15px;
+	color: #CCC;
+}
+
+/* sidebar 1 */
+
+.sidebar_box {
+	clear: both;
+    margin-top:130px;
+	margin-bottom: 50px;
+}
+
+.sidebar_box h2 {
+	font-size: 18px;
+	font-weight: bold;
+	margin-bottom: 14px;
+	color: #1c1c1c;
+}
+
+.sidebar_box .inputfield {
+	height: 16px;
+	width: 160px;
+	padding: 2px 5px;
+	margin: 0 0 10px 0;
+	font-size: 12px;
+	font-variant: normal;
+	line-height: normal;
+}
+
+.side_menu {
+	list-style: none;
+	padding: 0px;
+	margin: 0 0 0 0;
+}
+
+.side_menu li {
+	padding: 0;
+	margin: 5px 0;
+}
+
+.side_menu li a {
+	display: block;
+	color: #ffffff;
+	padding: 2px 10px;
+	font-weight: normal;
+	border-left: 5px solid #493028;
+}
+.side_menu li a:hover {
+	text-decoration: none;
+	border-left: 5px solid #c0330a;
+}
+
+.news_box {
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+	border-bottom: 1px dashed #333;
+}
+
+.news_box h3 a {
+	font-size: 12px;
+	font-weight: normal;
+	text-decoration: underline;
+}
+
+/* end of slidebar 1*/
+
+#mu_content { 
+	float: right;
+	width: 500px;
+}
+
+#mu_content a {
+	font-weight: normal;
+	color: #129ff5;
+}
+
+.post_section {
+	margin-bottom: 60px;
+}
+
+.post_section h2 {
+	color: #a42500;
+	font-size: 30px;
+	line-height: 30px;
+	font-weight: normal;
+	padding: 10px 0 10px 0;
+}
+
+.post_section p {
+	margin-bottom: 20px;
+}
+
+.post_section img {
+	margin: 20px 0;
+}
+
+/* end of content */
+
+/* footer */
+
+#mu_footer_wrapper {
+	clear: both;
+	width: 100%;
+	margin: 0 auto;
+	background: #3a2822 url(../siteimages/mu_footer.jpg) repeat-x top;
+}
+
+#mu_footer {
+	clear: both;
+	width: 900px;
+	margin: 0 auto;
+	padding: 50px 40px;
+	color: #fff;
+}
+
+#mu_footer a {
+	color: #c1330a;
+}
+
+#mu_footer h3 {
+	font-size: 14px;
+	font-weight: bold; 
+	color: #fff;
+	margin-bottom: 10px;
+}
+
+.footer_menu_list {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+
+.footer_menu_list li {
+	margin: 0px;
+	padding: 0px;
+}
+
+#mu_footer .footer_menu_list li a {
+	color: #dbdbdb;
+}
+
+#mu_footer .footer_menu_list li a:hover {
+	color: #13a0f6;
+	text-decoration: none;
+}
+
+.section_w180px {
+	float: left;
+	width: 160px;
+	padding-right: 20px;
+}
+
+
+
+/* end of footer */

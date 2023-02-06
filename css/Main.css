@@ -1,0 +1,520 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.ajax__calendar_days table tr td, .ajax__calendar_months table tr td,
+.ajax__calendar_years table tr td {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    vertical-align: top;
+    margin: 0 auto;
+    padding: 0;
+    min-height: 600px;
+    overflow-y: auto;
+}
+
+table {
+    /*font-family: Arial, Helvetica, sans-serif;*/
+    font-size: 13px;
+    text-align: left;
+    width: auto;
+}
+
+    table th {
+        color: #0c9007;
+        vertical-align: bottom;
+        text-align: left;
+    }
+
+    table td {
+        padding-right: 5px;
+    }
+
+div.heading {
+    padding-top: 10px;
+    background: #fff url('../Siteimages/heading-bg.png') no-repeat left top;
+    
+}
+
+    div.heading h2 {
+        color: #03315C;
+        font-family: "Arial Rounded MT Bold", Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        letter-spacing: -0.25px;
+        font-weight: normal;
+        padding: 5px 5px 5px;
+        margin: 0;
+    }
+
+.MainHead {
+    color: #0099ff;
+    font-family: "Arial Rounded MT Bold", Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    letter-spacing: -0.25px;
+    font-weight: bold;
+    padding: 0 5px 0 5px;
+    margin: 0;
+    border-bottom: 1px solid #000;
+}
+
+.description {
+    color: #03315C;
+    font-family: Arial;
+    font-size: 14px;
+    letter-spacing: -0.25px;
+    padding: 5px 5px 5px;
+}
+
+.required {
+    color: #FF3334;
+    font-size: 14px;
+}
+
+.expected {
+    color: #4800ff;
+    font-size: 14px;
+}
+
+
+.wizardTable {
+    border-left: #0099ff thin solid;
+    border-top: #0099ff thin solid;
+    width: 100%;
+    vertical-align: top;
+}
+
+select disabled {
+    background-color: #0099ff;
+}
+
+select {
+    border: solid 1px #0099ff;
+    font-size: 9pt;
+    color: #000000;
+    background-color: #ffffff;
+}
+
+.wizardSide {
+    padding-top: 10px;
+    width: 190px;
+    vertical-align: top;
+}
+
+    .wizardSide td {
+        padding-bottom: 20px;
+    }
+
+    .wizardSide a {
+        color: #000033;
+        text-decoration: none;
+        padding-left: 10px;
+        font-weight: bold;
+    }
+
+        .wizardSide a:hover {
+            color: #FFF;
+            background-color: #03315C;
+        }
+
+
+.wizardStepHeader {
+    color: #03315C;
+    font-family: "Arial Rounded MT Bold", Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    letter-spacing: -0.25px;
+    font-weight: normal;
+    padding: 5px 5px 5px;
+    background: #fff url('../Siteimages/heading-bg.png') no-repeat scroll top left;
+    margin: 0;
+}
+
+.wizardTable table {
+    width: 100%;
+    vertical-align: top;
+}
+
+    .wizardTable table th {
+        color: #0c9007;
+        vertical-align: middle;
+        text-align: left;
+    }
+
+    .wizardTable table td {
+        padding-top: 2px;
+        padding-right: 5px;
+    }
+
+wizardTable input, wizardTable select, wizardTable textarea {
+    padding: 5px;
+    color: #333333;
+    border: 1px solid #ddd;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    background-color: #fff;
+}
+
+
+
+
+table input, table select, table textarea {
+    padding: 5px;
+    color: #333333;
+    border: 1px solid #ddd;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    background-color: #fff;
+}
+
+input[type="submit"] {
+    border: solid 1px #7F9DB9;
+    background: #0c9007;
+    color: #fff;
+    min-width: 50px;
+}
+
+.GVFixedHeader {
+    font-weight: bold;
+    background-color: Green;
+    position: relative;
+    top: expression(this.parentNode.parentNode.parentNode.scrollTop-1);
+}
+
+.gridDynamic {
+    background-color: #fff;
+    margin: 5px 0 10px 0;
+    border: solid 1px #525252;
+    border-collapse: collapse;
+    width: 97%;
+    color: #000000;
+}
+
+    .gridDynamic Caption {
+        border: solid 1px #525252;
+        border-collapse: collapse;
+        font-size: 14px;
+        font-weight: bold;
+        background-color: #9f0404;
+        color: #fff;
+    }
+
+    .gridDynamic td {
+        padding: 2px;
+        border: solid 1px #525252;
+    }
+
+    .gridDynamic th {
+        padding: 4px 2px;
+        color: #fff;
+        background: #468b3c;
+        border: solid 1px #fff;
+    }
+
+    .gridDynamic .pgr table {
+        margin: 5px 0;
+    }
+
+    .gridDynamic .pgr td {
+        border-width: 0;
+        padding: 0 6px;
+        border-left: solid 1px #666;
+        font-weight: bold;
+        color: #fff;
+        line-height: 12px;
+    }
+
+    .gridDynamic .pgr a {
+        color: #666;
+        text-decoration: none;
+    }
+
+        .gridDynamic .pgr a:hover {
+            color: #000;
+            text-decoration: none;
+        }
+
+
+
+tooltip {
+    border-bottom: 1px dotted #000000;
+    color: #000000;
+    outline: none;
+    cursor: help;
+    text-decoration: none;
+    position: relative;
+}
+
+.tooltip span {
+    margin-left: -999em;
+    position: absolute;
+}
+
+.tooltip:hover span {
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -webkit-box-shadow: 5px 5px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 5px 5px rgba(0, 0, 0, 0.1);
+    font-family: Calibri, Tahoma, Geneva, sans-serif;
+    position: absolute;
+    left: 1em;
+    top: 2em;
+    z-index: 99;
+    margin-left: 0;
+    width: 250px;
+}
+
+.tooltip:hover img {
+    border: 0;
+    margin: -10px 0 0 -55px;
+    float: left;
+    position: absolute;
+}
+
+.tooltip:hover em {
+    font-family: Candara, Tahoma, Geneva, sans-serif;
+    font-size: 1.2em;
+    display: block;
+    padding: 0.2em 0 0.6em 0;
+}
+
+.classic {
+    padding: 0.8em 1em;
+}
+
+.custom {
+    padding: 0.5em 0.8em 0.8em 2em;
+}
+
+.classic {
+    background: #FFFFAA;
+    border: 1px solid #FFAD33;
+}
+
+.critical {
+    background: #FFCCAA;
+    border: 1px solid #FF3334;
+}
+
+.help {
+    background: #0099ff;
+    border: 1px solid #2BB0D7;
+}
+
+.info {
+    background: #0099ff;
+    border: 1px solid #2BB0D7;
+}
+
+.warning {
+    background: #FFFFAA;
+    border: 1px solid #FFAD33;
+}
+
+#scheduler {
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: auto;
+    height: 450px;
+}
+
+    #scheduler .item {
+        border: 2px #000 solid;
+        font-size: 12px;
+        text-align: center;
+        vertical-align: middle;
+        width: 100px;
+        background-color: #D6E796;
+    }
+
+    #scheduler .rangeheader {
+        border: 2px #000 solid;
+        text-align: center;
+        vertical-align: middle;
+        background-color: #4F342B;
+        color: white;
+        width: 100px;
+    }
+
+    #scheduler .rangefooter {
+        border: 2px #000 solid;
+        text-align: center;
+        color: white;
+        min-width: 100px;
+        background-color: #4F342B;
+    }
+
+    #scheduler .cal {
+        border-bottom-style: none;
+        border-right-style: none;
+        border-top-style: none;
+        border-left-style: none;
+    }
+
+    #scheduler .bground {
+        text-align: center;
+        border-bottom: #2E4d7B 1pt solid;
+        border-right: #2E4d7B 1pt groove;
+        background-color: #fff;
+    }
+
+#tblColumns {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    font-size: 12px;
+    text-align: left;
+    white-space: nowrap;
+}
+
+    #tblColumns th {
+        font-size: 14px;
+        color: #fff;
+        background-color: #7F9DB9;
+        text-align: center;
+        vertical-align: top;
+        white-space: nowrap;
+        font-family: Tahoma;
+    }
+
+
+
+    #tblColumns td table tr td {
+        vertical-align: bottom;
+        text-align: left;
+        white-space: nowrap;
+        font-size: 10pt;
+        color: #000;
+        font-style: normal;
+        font-family: verdana, arial, helvetica, sans-serif;
+        width: 99%;
+    }
+    #tblColumns input[disabled] {
+    border: solid 1px #000;
+    background-color: black;
+    font-family: Arial;
+    font-size: 8.5pt;
+    height: 16px;
+    color: #0c2278;
+    width: 100%;
+}
+
+#tblColumns Tabheader {
+    background-image: url(../images/sidebar_header.png);
+    color: White;
+    font-weight: bold;
+    height: 30px;
+    padding-left: 5px;
+}
+.checkList {
+    cursor: help;
+}
+
+.itemCss {
+    z-index: 10005;
+}
+
+
+#tblCol {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    font-size: 12px;
+    text-align: center;
+    white-space: nowrap;
+    width: 100%;
+}
+
+    #tblCol th {
+        font-size: 14px;
+        color: white;
+        border-bottom: 2px solid #fff;
+        background-color: #474643;
+        text-align: center;
+        vertical-align: top;
+        white-space: nowrap;
+        font-family: Arial, Sans-Serif;
+        font-weight: normal;
+    }
+
+    #tblCol td {
+        /*border-bottom: #000 1px solid;*/
+        vertical-align: bottom;
+        text-align: left;
+        white-space: nowrap;
+        font-weight: bold;
+        font-size: 8.5pt;
+        color: #474643;
+        font-style: normal;
+        font-family: verdana, arial, helvetica, sans-serif;
+        width: 99%;
+    }
+
+        #tblCol td table tr td {
+            border-bottom: #000 1px solid #fff;
+            vertical-align: bottom;
+            text-align: left;
+            white-space: nowrap;
+            font-weight: bold;
+            font-size: 8.5pt;
+            color: #000;
+            font-style: normal;
+            font-family: verdana, arial, helvetica, sans-serif;
+            width: 99%;
+            background-color: #DBDBDB;
+        }
+
+    #tblCol caption {
+        background-color: #808080;
+    }
+
+.checkList {
+    cursor: help;
+}
+#tblCol input[disabled] {
+    border: solid 1px #000;
+    background-color: black;
+    font-family: Arial;
+    font-size: 8.5pt;
+    height: 16px;
+    color: #474643;
+    width: 100%;
+}
+
+#tblCol Tabheader {
+    background-image: url(../images/sidebar_header.png);
+    color: White;
+    font-weight: bold;
+    height: 30px;
+    padding-left: 5px;
+}
+
+.accordionHeader {
+    border: 1px solid #2F4F4F;
+    color: #fff;
+    background-color: #2E4d7B;
+    font-size: 13px;
+    font-weight: bold;
+    padding: 5px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.accordionHeaderSelected {
+    border: 1px solid #2F4F4F;
+    color: #fff;
+    background-color: #be1818;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 5px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.accordionContent {
+    border: 1px solid #2F4F4F;
+    border-top: none;
+    font-size: 13px;
+    color: #000;
+    padding: 10px,10px,10px,10px;
+}

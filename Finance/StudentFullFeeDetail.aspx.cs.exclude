@@ -1,0 +1,50 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+using System.Web.UI;
+using System.Web.UI.WebControls;
+using System.Data;
+
+public partial class Finance_StudentFullFeeDetail : System.Web.UI.Page
+{
+    QueryFunctions queryfunction;
+    FillFunctions fillfunction;
+    SFBAL ObjBal;
+    SFBLL ObjBll;
+    DataTable dt;
+    CommonFunctions cf;
+
+    protected void Initialize()
+    {
+        queryfunction = new QueryFunctions();
+        fillfunction = new FillFunctions();
+        ObjBal = new SFBAL();
+        ObjBll = new SFBLL();
+        dt = new DataTable();
+        cf = new CommonFunctions();
+    }
+    protected void Page_Load(object sender, EventArgs e)
+    {
+        btnExport.Visible = false;
+        tr1.Visible = false;
+        Initialize();
+        if (!IsPostBack)
+        {
+            pageload();
+
+        }
+    }
+    protected void pageload()
+    {
+        fillfunction.Fill(ddlProcess, queryfunction.GetCommand(QueryFunctions.QueryBaseType.FeeProcess), true, FillFunctions.FirstItem.Select);
+    }
+    protected void btnView_Click(object sender, EventArgs e)
+    {
+
+    }
+    protected void btnExport_Click(object sender, EventArgs e)
+    {
+
+    }
+}

@@ -1,0 +1,4 @@
+SELECT LAST_CNG AS 'Password Last Changed On', ENF_POL AS 'Expire password every 30 days'
+FROM EMP_PASS_INF
+
+
